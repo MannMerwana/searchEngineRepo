@@ -36,7 +36,7 @@ import { useEffect,useState } from 'react';
 
    return (
      <>
-       <h1>Auto Complete Search Bar</h1>
+       <h1 className='heading'>Auto Complete Search Bar</h1>
        <div>
          <input
            type="text"

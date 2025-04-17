@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  
 }
 html,body{
   width: 100%;
@@ -9,13 +11,35 @@ html,body{
   font-family: 'Philosopher';
   background-color: black;
   color:white;
-}
-.searchBox-Container{
-  display: block;
-  margin:auto;
 
 }
-.searchBox{
-  padding: 3px;
+h1{
+  text-align: center;
+ color: yellow;
+ font-family: 'Josefin Sans';
+}
+.searchInput{
+  margin-left: 35%;;
+  width: 500px;
+  padding: 5px;
+  color: rgb(75, 172, 246);
+  background-color: black;
+}
+.resultsContainer{
+
+  
   max-width: 500px;
+  margin: auto;
+  border:1px solid whitesmoke;
+  text-align: left;
+  height: 500px;
+  overflow-y:scroll;
+}
+.result{
+  display: block;
+  padding:5px;
+}
+.result:hover{
+  cursor: pointer;
+  background-color: yellowgreen;
 }

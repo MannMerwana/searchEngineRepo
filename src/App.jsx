@@ -6,7 +6,7 @@ function App() {
  
   return (
     <>
-      <h1>Auto Complete Search Bar</h1>
+      
       <SearchEngine />
     </>
   );
