@@ -1,12 +1,17 @@
-# React + Vite
+# SeachEngine Repo By FrontendTeam : Mann,Yash and Jishan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a SearchEngine similar to google with following features:
 
-Currently, two official plugins are available:
+1) Document URL generation and sharing instead of Website URL.
+2) Auto Generation Of MetaData
+3) Query Processing(Indexing) and Displaying Documents Based On Ranking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Main Flow:
+1)User will have a ui of Document Upload Page,where he will have a button to upload Documents directly to cloud/database using SupaBase.
+2) Using The Search Engine,Users Can Search For A Particular Document By Entering Keywords Related To The Document. Ex: 'JavaScript' is the title searched,Result will be, all the  documents with the title 'JavaScript'.
+3) Documents Viewer Page: This Page Will Be Used By The Users to Directly View Resulted/Fetched Documents During Indexing.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To Use This:
+1)Fork Repo,Use git clone to your Local System
+2)Install Necessary Dependencies.
+3)Run The Code.
