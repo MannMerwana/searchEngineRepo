@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Philosopher';
+  background-color: black;
+  color:white;
+}
+.searchBox-Container{
+  display: block;
+  margin:auto;
+
+}
+.searchBox{
+  padding: 3px;
+  max-width: 500px;
+}
