@@ -1,20 +1,15 @@
-import { useState } from 'react'
+import React from 'react'
+import SearchEngine from './components/SearchEngine'
 import './App.css'
 
 function App() {
  
   return (
     <>
-    <h1>Search Engine</h1>
-      <div className='searchBox-Container'>
-            <input
-            className='searchBox'
-             type="text" 
-            id ='searchBox'
-            placeholder='Enter Text To Search...' />
-        </div>
+      <h1>Auto Complete Search Bar</h1>
+      <SearchEngine />
     </>
-  )
+  );
 }
 
 export default App
