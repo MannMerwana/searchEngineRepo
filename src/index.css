@@ -45,8 +45,41 @@ h1{
 }
 .result:hover{
   cursor: pointer;
-  background-color: yellowgreen;
+  background-color: rgb(64, 12, 236);
 }
+
+.loadingState{
+  display: flex;
+  align-items: center;
+  text-align: start;
+  margin-left:31%;
+  gap: 10px;
+  margin-left: 36%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: start;
+  font-weight: 500;
+  color: #1e3a8a; /* Tailwind's blue-800 */
+}
+.loadingText{
+  color: rgb(255, 183, 0);
+  text-align: start;
+}
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #93c5fd;      /* light blue */
+  border-top: 3px solid #1e3a8a;   /* darker blue */
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  flex-shrink: 0;/* prevent resizing */
+}
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 @media only screen and (min-width:320px) and (max-width: 480px) {
   h1{
     width:510px;
