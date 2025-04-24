@@ -1,0 +1,445 @@
+Incoming metadata: {
+  id: '6613e272-f639-4619-a2e5-d7c6421baeab',
+  file_name: 'Yash-Resume(py).pdf',
+  title: 'Yash-Resume(py)',
+  file_url: {
+    publicUrl: 'https://mogmbfavudzuhryoxrhb.supabase.co/storage/v1/object/public/documents/public/Yash-Resume(py).pdf'
+  },
+  text_content: 'Yash Nirmal  \x83   9130016480   #   yash.ethh@gmail.com   ï   linkedin.com/in/yash-nirmal-39976121b/   §   github.com/Yashnirmal20  Education  Vishwakarma Institute of Information Technology, CGPA: 8.5   Dec. 2021 – May 2025  Bachelor of Technology in Information Technology   Pune, Maharashtra  Experience  PuneDAO   Aug 2024 – Nov 2024  Developer Intern   Pune, Maharashtra  •   Gained hands-on experience with full-stack development, focusing on both backend smart contract development and frontend integration.  •   Developed, tested, and deployed smart contracts on Ethereum and other blockchain platforms.  •   Contributed to the development of decentralized applications (DApps) by integrating smart contracts with frontend interfaces using blockchain technologies.  •   Collaborated with cross-functional teams to design and implement user-friendly interfaces, enhancing the functionality of DApps.  Projects  Blockchain Enabled Digital Certificate Issuance and Verification   |   Hyperledger Fabric, Node.js, Pug, CouchDB  •   Developed a blockchain-based platform using Hyperledger Fabric to automate digital certificate issuance, revocation, and verification for educational institutions.  •   Designed and implemented smart contracts for secure certificate management, reducing reliance on third-party systems like Metamask, and ensuring direct institutional control.  •   Delivered a scalable, privacy-focused solution with role-based access control and MSP configurations, ensuring security and interoperability across academic systems.  Sign Language Detection System Using Machine Learning   |   Python, OpenCV, MediaPipe, scikit-learn, Pickle  •   Developed a sign language detection system that recognizes hand gestures and translates them into text using machine learning and computer vision techniques.  •   Implemented feature extraction with MediaPipe to detect and normalize hand landmarks, and trained a Random Forest Classifier on custom data for gesture classification.  •   Built a real-time inference model for video input processing and sign language prediction with live feedback on detected gestures.  AI SaaS Chatbot   |   MERN Stack, Material-UI, OpenAI API  •   Designed and developed a full-stack ChatGPT clone using the MERN stack (MongoDB, Express, React, Node.js) and TypeScript, ensuring secure and scalable architecture.  •   Implemented robust authentication and authorization mechanisms, including JWT tokens, HTTP-only cookies, and route protection with verification checks.  •   Integrated OpenAI API with the backend, developed a responsive chat UI using Material-UI, and stored user sessions and chat history in MongoDB for a seamless user experience.  Technical Skills  Languages : JavaScript, Python, Java, Solidity, SQL, HTML/CSS  Frameworks : React, Node.js, Express.js, Truffle, Hardhat  Technologies :: Ethereum, OpenCV, MediaPipe, Scikit-learn, Hyperledger Fabric, OpenAI API  Leadership / Extracurricular  Entrepreneurship and Development Cell, VIIT   Aug 2022 – Mar 2023  Assistant Operations Executive   Vishwkarma Institute of Information Technology  •   Successfully handled the logistics of the VISHWAPRENEUR event (Largest entrepreneurship summit in Pune)  •   Coordinated with cross-functional teams to streamline event operations, ensuring seamless execution of activities for over 500+ attendees.  •   Managed vendor relationships and resource allocation to optimize event logistics and minimize operational bottlenecks.\n',
+  uploaded_at: '2025-04-24 03:28:24'
+}
+
+Incoming metadata: {
+  id: '134e946b-c7f6-41d4-ba3e-440dfeb5cf56',
+  file_name: 'Mock test allotment list.xlsx',
+  title: 'Mock test allotment list',
+  file_url: {
+    publicUrl: 'https://mogmbfavudzuhryoxrhb.supabase.co/storage/v1/object/public/documents/public/Mock%20test%20allotment%20list.xlsx'
+  },
+  text_content: 'Sheet: Sheet1\n' +
+    'Sr no,Name of the student,Program,Year,Branch,College ,Time slots,Lab alloted,Date \n' +
+    '1,Nidhi Naresh Popli,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +  
+    '2,Samina Sameer Shaikh,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '3,Tejas Sopan Jadhav,B.Tech.(Bachelor of Technology),2025,Data Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '4,Gaurav Gajanan Shinde,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '5,Soham Shantaram Dhavale,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '6,Diya Rajesh Oswal,B.Tech.(Bachelor of Technology),2025,Artificial Intelligence and Data Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '7,Sejal Datta Kulkarni,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '8,Ojal Kantilal Rane,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +  
+    '9,Aiviya Hemant Oswal,B.Tech.(Bachelor of Technology),2025,Artificial Intelligence and Data Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '10,Ayush Arun Yele,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +    
+    '11,Mohit Praveen Jain,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' + 
+    '12,Arya Sandip Bhakte,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +     
+    '13,Manasi Devendra Gursale,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '14,Aniruddha Sachin Vharkate,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '15,Aryan Mangesh Nigade,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '16,Sarvesh Sandeep Mahadik,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '17,Shweta Manish Shinde,B.Tech.(Bachelor of Technology),2025,Computer Science & Technology,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '18,Ojas Jayant Khawas,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' + 
+    '19,Tanish Shripal Bhandari,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '20,Eshan Santosh Dev,B.E.(Bachelor of Engineering),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +    
+    '21,Aishwarya Laxmikant Deshpande,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '22,Vishwa Shivkuamr Khelage,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '23,Mohammed Fuzail Mohammed Faruk Saiyed,B.Tech.(Bachelor of Technology),2025,Computer Science and Engineering (CSE),VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '24,Keyur Govind Kulkarni,B.Tech.(Bachelor of Technology),2025,Computer Science and Engineering (CSE),VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '25,Kiran Kalyankumar Donni,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '26,Yashraj Audumber Patil,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '27,Kishal Sanjay Shah,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' + 
+    '28,Harshvardhan Tanaji Salunkhe,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '29,Ishant Sunil Kongre,B.Tech.(Bachelor of Technology),2025,Computer Science and Engineering (CSE),VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '30,Rutuja Arjun Kale,B.Tech.(Bachelor of Technology),2025,Artificial Intelligence and Data Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '31,Tanisha Venugopal Kodam,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '32,Aalok Sachin Somani,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +    
+    '33,Tanmay Balasaheb Paygude,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '34,Divya Sheetal Jain,B.Tech.(Bachelor of Technology),2025,Artificial Intelligence and Data Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '35,Hiya Kishor Jain,B.Tech.(Bachelor of Technology),2025,Artificial Intelligence and Data Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '36,Sangita Suresh Hazra,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '37,Akhilesh Milind Dolare,B.Tech.(Bachelor of Technology),2025,Computer Science with Data Science & Artificial Intelligence,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '38,Ammar Shabbir Arsiwala,B.Tech.(Bachelor of Technology),2025,Cyber Security & Forensics,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '39,Prerana Ashwin Pensalwar,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '40,Digvijay Balasaheb Gadhave,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '41,Aryan Ramdas Beluse,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '42,Tushar Bibhishan Chede,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '43,Atharva Satish Jaid,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +    
+    '44,Moin Badesab Chaus,B.Tech.(Bachelor of Technology),2025,Computer Science and Engineering (CSE),VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '45,Khalil Yunus Shaikh,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '46,Yashraj Chandrashekhar Pawar,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '47,Mayuri Navnath Aher,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +    
+    '48,Yuvraj Ashok Paygude,B.Tech.(Bachelor of Technology),2025,Computer Science and Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '49,Sharayu Kailas Wankhade,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '50,Jidnyasa Dnyaneshwar Patil,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,11.00 am,1307,24th Sept\n' +
+    '51,Aditya Laxman Dimble,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '52,Nakshatra Navnath Pharate,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '53,Saanniyaa Sookummar Gundu,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '54,Mohammed Saif,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +       
+    '55,Chirag Santosh Sane,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' + 
+    '56,Shifa Mujeeb Chilwan,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '57,Gajanan Santosh Deshpande,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '58,Ayush Anand Karnawat,B.Tech.(Bachelor of Technology),2025,Artificial Intelligence and Data Science,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '59,Yash Somnath Kakade,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +     
+    '60,Prathamesh Deepak Mahajan,B.Tech.(Bachelor of Technology),2025,Computer Science,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '61,Shruti Jain,M.C.A(Master of Computer Application),2025,Computer Application,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +   
+    '62,Lakhan Rajesh Mohata,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '63,Khushi Sanjay Kesarkar,M.C.A(Master of Computer Application),2025,Computer Application,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '64,Shyamal Sagar Patil,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' + 
+    '65,Aukshwant Raosaheb Gaikwad,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept\n' +
+    '66,Mrunal Jivan Bhoyar,B.Tech.(Bachelor of Technology),2025,Computer Engineering,VU Pune - Vishwakarma University - Pune,2.00 pm,1307,24th Sept'... 4921 more characters,
+  uploaded_at: '2025-04-24 03:46:03'
+}
+
+Incoming metadata: {
+  id: '4fa91a2b-11de-46d0-9182-70229a2975e3',
+  file_name: 'FURNITURE-ESSENTIALS.xlsx',
+  title: 'FURNITURE-ESSENTIALS',
+  file_url: {
+    publicUrl: 'https://mogmbfavudzuhryoxrhb.supabase.co/storage/v1/object/public/documents/public/FURNITURE-ESSENTIALS.xlsx'
+  },
+  text_content: 'Sheet: Sheet1\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    ',,\n' +
+    'IMPORTANT LIST FOR FURNITURE,,\n' +
+    'SR.NO,AREA,ITEMS\n' +
+    '1,ENTRANCE,"SHOE RACK WITH LOCK,SAFETY DOOR."\n' +
+    '2,LIVING,"L SHAPE SOFA CUM BED/LOUNGER,TV UNIT ,CENTER TABLE ,TV:42INCHES,TV UNIT,SHOW PIECES,CLOCK,KEY HOLDER,WHEELCHAIR,SOFA PILLOWS,SOFA COVERS,1 ,2 CHAIRS,1 DOORMAT,DUSTBIN,1TORAN."\n' +
+    '3,MASTER ROOM,"KING SIZE BEDS, DRESSING TABLE,SIDE TABLE,SWITCH BOARD,6 FEET WARDROPES ,LOFTS,STUDY DESK,OFFICE CHAIR,CLOCK,1 DOORMAT."\n' +
+    '4,MEDIUM ROOM,"QUEEN SIZE BEDS, DRESSING TABLE,SIDE TABLE,SWITCH BOARD,6 FEET WARDROPES ,LOFTS,STUDY DESK,OFFICE CHAIR,CLOCK,1 DOORMAT."\n' +        
+    '5,KITCHEN,"L SHAPE MODULAR KITCHEN,TROLLIES,PANTRY UNITS,KITCHEN LOFTS,CHIMNEY,3 EXHAUST FANS ,FOOD PROCESSOR,OVEN,GAS,WATER MATKA STAND , 1 MINI DUSTBIN."\n' +
+    '6,COMMON BATHROOM,"MIRROR,GESURE,EXHAUST FAN ,CORNER SHELVES,BATHROOM ACCESSORIES,TOWEL HOLDER,SOAP HOLDER,BUCKETS,TUMBLER,PATLA,TOOTHPASE HOLDER."\n' +
+    '7,MASTER BATHROOM,"MIRROR,GESURE,EXHAUST FAN ,CORNER SHELVES,BATHROOM ACCESSORIES,TOWEL HOLDER,SOAP HOLDER,BUCKETS,TUMBLER,PATLA,TOOTHPASE HOLDER."\n' +
+    '8,BALCONY,"EASY DRY(DRY BACONIES 2 PIPES,MAIN BALCONY 4 PIPES) "\n' +   
+    '9,LIGHT FITTINGS ,"4 HALL LIGHTS ,2KITCHEN LIGHT(EMERGENCY),MASTER BEDROOM:1 MAIN LIGHT,1 ZERO LIGHT,COMMON BEDROOM: 1 ZERO,1 MAIN  DRY BALCONY:1LIGHT,MAIN BALCONY:1 LIGHT,PASSAGE LIGHT,TV UNIT SPOT LIGHTS "\n' +
+    '10,FANS,4 FANS.\n' +
+    '11,"CURTAINS,CURTAIN RODS","1 HALL,2 BEDROOMS,1 KITCHEN"\n' +
+    '12,ELECTRONIC ITEMS ,"FRIDGE,TV"\n' +
+    '13,MATRESS,"2 MATRACESS (1 KING AND 1 QUEEN SIZE , 3 GADDIS ),BEDSHEETS (2)"\n' +
+    '14,CLEANING ITEMS,"1 MOP,1 BROOM,1 TOILET CLEANER,2 WIPERS,3 KHARATAS(PLASTIC BROOM)"\n' +
+    '15,SOFA,"SOFA PILLOWS,SOFA COVERS."\n' +
+    ',,\n' +
+    'Sheet: Sheet2\n' +
+    'ESSENTIAL LIST\n',
+  uploaded_at: '2025-04-24 03:49:16'
+}
+
+Incoming metadata: {
+  id: 'e3557d2f-724a-46dc-9157-2e895a6d6f00',
+  file_name: 'Question bank for CIE.docx',
+  title: 'Question bank for CIE',
+  file_url: {
+    publicUrl: 'https://mogmbfavudzuhryoxrhb.supabase.co/storage/v1/object/public/documents/public/Question%20bank%20for%20CIE.docx'
+  },
+  text_content: 'Question bank for CIE-2 (AA)\n' +
+    '\n' +
+    '1) What is Algorithms and How to analyse algorithms?\n' +
+    '\n' +
+    '2) Explain Binary Search with Example and its Applications?\n' +        
+    '\n' +
+    '3) Explain Linear Search with Example and its applications?\n' +        
+    '\n' +
+    '4) Explain Insertion Sort with Example and its applications?\n' +       
+    '\n' +
+    '5) Explain Bubble Sort with Example and its applications?\n' +
+    '\n' +
+    '6) Explain selection Sort with Example and its applications?\n' +       
+    '\n' +
+    '\n' +
+    '\n',
+  uploaded_at: '2025-04-24 03:50:46'
+}
+
+Incoming metadata: {
+  id: 'c6470d1d-824a-4176-8df1-f8c0a9e114d0',
+  file_name: 'Published Paper.pdf',
+  title: 'Published Paper',
+  file_url: {
+    publicUrl: 'https://mogmbfavudzuhryoxrhb.supabase.co/storage/v1/object/public/documents/public/Published%20Paper.pdf'
+  },
+  text_content: '11   XI   November 2023 https://doi.org/10.22214/ijraset.2023.56982\n' +
+    "International Journal for Research in Applied Science & Engineering Technology (IJRASET )  ISSN: 2321 - 9653; IC Value: 45.98; SJ Impact Factor: 7.538  Volume 11 Issue XI Nov 2023 -   Available at www.ijraset.com  2349 ©IJRASET: All Rights are Reserved | SJ Impact Factor 7.538 | ISRA Journal Impact Factor 7.894   |  NFTCert: Streamlining Certificate Creation and  Verification with Blockchain and NFTs  Akanksha Sathe 1 ,   Yash Nirmal 2 ,   Mayuri Sirsat 3 ,   Shreya Ladhe 4 , Mr. Ganesh Shelke 5 ,   Ratnmala   Bhimanpallewar 6  1, 2, 3, 4 Research Scholars, Vishwakarma Institute of Information Technology, Pune  5, 6 Assistant Professor, Vishwakarma Institute of Information Technology, Pune  Abstract:   This project emerges from the need to address the inefficiencies and vulnerabilities in traditional certificate  management and authentication processes across various industries. The project's central objective is to develop an innovativ e  solution by harne ssing the power of blockchain technology, with a specific focus on leveraging the Polygon blockchain.   The  problem it aims to solve is the cumbersome and often error - prone nature of certificate creation and verification. Traditional  methods lack transparenc y and are susceptible to fraud and unauthorized alterations. This project presents an approach to  autonomously generate certificates using predefined templates, streamlining the entire certificate creation process. These  certificates, along with their asso ciated metadata, are securely stored on the blockchain in the form of non - fungible tokens  (NFTs), ensuring immutability and traceability.   The methodology employed involves the integration of blockchain and NFT  technology to provide a robust and efficient sy stem for certificate management and authentication. It emphasizes transparency,  security, and efficiency throughout the process. While the full results and details are discussed in the research paper, this  project's implications are far - reaching. It has th e potential to revolutionize how certificates are issued, managed, and  authenticated across multiple sectors. By enhancing the efficiency and security of this critical component, the project contr ibutes  to increased trust, reduced fraud, and improved overa ll workflow efficiency in industries reliant on certificates.  Keywords:   Immutability, Traceability, Blockchain, Fraud reduction, Non   -   Fungible Tokens.  I.   INTRODUCTION  In today's digital landscape, the management and authentication of certificates play a pi votal role across numerous industries.  Certificates serve as the cornerstone of trust, offering assurance in domains such as education, healthcare, finance, and sup ply chain  management. However, the conventional methods employed for creating and validating   certificates are marred by inefficiencies,  vulnerabilities, and a lack of transparency.  This research project is driven by the imperative to address these issues head - on. At its heart is the utilization of blockchain  technology, with a particular focus o n harnessing the capabilities of the Polygon blockchain. The project's central objective is to  streamline the laborious and often error - prone process of certificate creation and verification. Traditional methods, rooted in legacy  systems,   exhibit   limitatio ns   that   hinder   progress   and raise   concerns   about   reliability.   Our   approach   seeks   to instigate   a  transformative shift by enabling the autonomous generation of certificates through predefined templates. This automation elim inates  the human error and repetiti on frequently associated with manual certificate creation, making the process significantly more  efficient and dependable. Furthermore, these certificates, accompanied by their metadata, find a secure home on the blockchai n,  preserved as non - fungible token s (NFTs).  This guarantees immutability and traceability throughout their lifecycle. This paper delineates the methodology we employ,  emphasizing the seamless integration of blockchain and NFT technology into certificate management and authentication proce sses.  The result is a robust, secure, and efficient system that places transparency and trustworthiness at its core. While detailed   results and  intricate aspects are explored in later sections, it's crucial to underscore the profound potential of this proj ect. It stands poised to  revolutionize the issuance, management, and authentication of certificates across multiple sectors. By enhancing the efficien cy and  security of this pivotal element, the project promises to significantly boost trust, reduce fraud,   and enhance overall workflow  efficiency in industries heavily reliant on certificates.  In the subsequent sections, we will delve deeper into our methodology, present empirical evidence of its effectiveness, and d iscuss  the broad impacts and applications o f this innovative approach. The journey begins with an examination of the shortcomings of  traditional certificate management and authentication processes, leading to a detailed exploration of the blockchain - based solution  set to redefine these essential co mponents of trust and reliability.\n" +
+    "International Journal for Research in Applied Science & Engineering Technology (IJRASET )  ISSN: 2321 - 9653; IC Value: 45.98; SJ Impact Factor: 7.538  Volume 11 Issue XI Nov 2023 -   Available at www.ijraset.com  2350 ©IJRASET: All Rights are Reserved | SJ Impact Factor 7.538 | ISRA Journal Impact Factor 7.894   |  II.   LITERATURE REVIEW  1)   A paper by Saleh, Omar S., Osman Ghazali   [1] , and Muhammad Ehsan Rana   focuses on enhancing document verification,  particularly in the context of educational certificates, using blockchain technology [1] . It identifies key security themes such as  authentication, authorization, privacy, confidentiality, and ownership as essential for this process. The proposed framework,  based on Hyperledger Fabric, aims to ensure trustworthiness, permission control, and data protection in certificate verificat ion.  Future work involves implementing and adopting this framework in educational institutions to combat document fraud  effectively   [1] .  2)   The paper by   Zaman, Nihat, and Nursena BAYĞIN   [2] addresses the challenges posed by the digitization of certificates issued  by institutions and companies. It highlights issues like security risks, copyright infringement, and fake certificates   in the digital  realm. The proposed solution aims to use blockchain technology, particularly smart contracts, to create and verify certificat es,  making them traceable and tamper - proof. Additionally, the study suggests utilizing NFTs to ensure intellectual   property rights  and easy online monitoring of certificates. The combination of blockchain and NFTs is seen as a means to enhance certificate  security and authenticity in the digital environment. Future plans involve implementing this approach in a real - wor ld  application, although transaction fees on the Ethereum blockchain have not been considered in this initial study [2] .  3)   A paper by   Lim, Joe Onn, and Diyana Kamarudin   addresses certificate fraudulence by proposing the use of NFTs and  blockchain technology for secure certification [3] . It highlights the lack of coordination among stakeholders, emphasizing paper  qualifications over real credentials. While NFTs offer potential solutions, challenges include low adoption and the need for  education on NFT technology [3] .  4)   A paper by   Lim, Joe Onn, and Diyana Kamarudin   [4] ensure the authenticity of exotic fish, digital certifications are crucial.  However, the susceptibility to fraud in the certification process calls for a robust solution. Implementing blockchain techno logy,  including smart contracts and NFTs, enhances secu rity and traceability by distributing data across the network. This innovative  approach not only combats fraudulent certificates but also offers cost - effective and efficient certification management for the  exotic fish industry, addressing current gaps and   ensuring data integrity [4] .  5)   A paper by   Zhao, Xiongfei, and Yain - Whar Si [5]   presents NFTCert, a novel certificate framework that replaces traditional  paper - based certificates with NFTs while not relying on cryptocurrencies [5] . NFTCert aims to enhance usability, authenticity,  confidentiality, transparency, and availability in certificate verification. It leverages the unique and tamper - proof nature of  NFTs to com bat the increasing fraud in educational certificates. The framework also introduces online payment options for  fees, simplifies certificate verification, and centralizes educational certificates for easy access. Future work involves eva luating  efficiency,   reliability, and introducing incentives to enhance the NFTCert framework's robustness [5] .  6)   The paper by   Ghazali, Osman, and Omar S. Saleh [6]   proposes a Graduation Certificate Verification Model using blockchain  technology [6] . It aims to enhance the security and accessibility of academic certificates. The model covers the design,  implementation, and benefits of a blockchain - based certificate verification platform   for educational institutions, employers, and  other stakeholders. The paper also explores technical, legal, and regulatory aspects [6]  7)   The paper by Ru stem i, Avni, [7]   explores the complex field of applying blockchain technology to academic credential  verification [7] . This thorough systematic literature review, written by Avni Rustemi, Fisnik Dalipi, Vladimir Atanasovski, and  Aleksandar Risteski, attempts to give readers a broad picture of the state of research and progress in this developing field.  Bl ockchain technology has a lot of promise because of the growing worry over phony certifications and the necessity for quick,  safe verification procedures. Thro"... 25289 more characters,
+  uploaded_at: '2025-04-24 03:54:02'
+}
+
+Incoming metadata: {
+  id: '2cfdb801-8dbb-4e9d-9126-61d54d2728be',
+  file_name: 'LS_Social-Media-Addiction.docx',
+  title: 'LS_Social-Media-Addiction',
+  file_url: {
+    publicUrl: 'https://mogmbfavudzuhryoxrhb.supabase.co/storage/v1/object/public/documents/public/LS_Social-Media-Addiction.docx'
+  },
+  text_content: '\n' +
+    '\n' +
+    'Project Title\n' +
+    '\n' +
+    'SOCIAL MEDIA ADDICTION WITH DOPAMINERGIC LENS.\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Project :GROUP PROJECT\n' +
+    '\n' +
+    '                  Course name: Research Methodology\n' +
+    '\n' +
+    '                              Course Code: MSCST23106\n' +
+    '\n' +
+    '                                                 By \n' +
+    '\n' +
+    'Student Name: PARTH DESHMUKH, MANN MERWANA\n' +
+    '\n' +
+    '                                    SRN: 3123,31232119\n' +
+    '\n' +
+    'A.Y.2023-2024 \n' +
+    '\n' +
+    '                                     Under The Class Teacher \n' +      
+    '\n' +
+    'Dr.Nazia Wahid \n' +
+    '\n' +
+    'Department of Mathematics and Statistics/ Department of Computer Science \n' +
+    '\n' +
+    'Faculty of Science and Technology,\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'DECLARATION \n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'We,\n' +
+    '\n' +
+    'Mann  Merwana and Parth Deshmukh\n' +
+    '\n' +
+    'Here by declare that the work embodied in this project entitled “Project title” carried out by under the supervision of Dr. Nazia Wahid, Department of Mathematics & Statistics , Faculty of Science& Technology, Vishwakarma University , Pune is an original work\n' +
+    '\n' +
+    '\t\tMann Merwana, Parth Deshmukh\n' +
+    '\n' +
+    'MSC-COMPUTER SCIENCE\n' +
+    '\n' +
+    'Department of Science & Technology \n' +
+    '\n' +
+    'Vishwakarma University \n' +
+    '\n' +
+    'Pune.\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'ACKNOWLEDGEMENT \n' +
+    '\n' +
+    'We would like to express my deepest gratitude to Assistant Professor Dr.Nazia Wahid  for her valuable guidance, unwavering support, and continuous encouragement  throughout the course of this project. His expertise and insights have been instrumental  in shaping the research and enriching our understanding of the subject matter. \n' +
+    '\n' +
+    'Date : 7/12/2023\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'SR.NO\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'CONTENTS\n' +
+    '\n' +
+    'PAGE\n' +
+    '\n' +
+    'NUMBER\n' +
+    '\n' +
+    '1 \n' +
+    '\n' +
+    'Literature Review \n' +
+    '\n' +
+    '1\n' +
+    '\n' +
+    '2 \n' +
+    '\n' +
+    'Objectives \n' +
+    '\n' +
+    '3\n' +
+    '\n' +
+    '3 \n' +
+    '\n' +
+    'Data \n' +
+    '\n' +
+    '3\n' +
+    '\n' +
+    '4 \n' +
+    '\n' +
+    'Methodology \n' +
+    '\n' +
+    '4-5\n' +
+    '\n' +
+    '5 \n' +
+    '\n' +
+    'Exploratory Data Analysis \n' +
+    '\n' +
+    '6-11\n' +
+    '\n' +
+    '6 \n' +
+    '\n' +
+    'Data Analysis \n' +
+    '\n' +
+    '11-17\n' +
+    '\n' +
+    '7 \n' +
+    '\n' +
+    'Conclusion \n' +
+    '\n' +
+    '18\n' +
+    '\n' +
+    '8 \n' +
+    '\n' +
+    'References \n' +
+    '\n' +
+    '18\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'ABSTRACT\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'This literature survey deals with  the pervasive issue of social media addiction, based on neurobiological phenomenon to provide a nuanced understanding of  relationship between social media and use and dopamine with its broader implications to human brain.\n' +
+    '\n' +
+    'Dopamine, a neurotransmitter associated with reward and pleasure, plays a crucial role in reinforcing behaviours and forming habit loops, making it a key factor in understanding the addictive nature of social media use.\n' +  
+    '\n' +
+    "Despite their increasing ubiquity in people's lives and incredible advantages in instantly interacting with others, social media's impact on subjective well-being is a source of concern worldwide and calls for up-to-date investigations of the role social media plays in mental health. Much research has discovered how habitual social media use may lead to addiction and negatively affect adolescents' school performance, social behaviour, and interpersonal relationships. \n" +
+    '\n' +
+    '        Social media platforms have become integral components of modern communication, offering unprecedented connectivity and information sharing. However, the compulsive use of these platforms, leading to addiction-like behaviors, has raised concerns about its impact on mental health and well-being.\n' +
+    '\n' +
+    "               It explores how the constant stimuli provided by social media triggers the brain's reward system, fostering a cycle of craving, consumption, and reinforcement. Additionally, the survey explores individual differences in susceptibility to social media addiction, considering factors such as personality traits, genetics, and environmental influences.\n" +
+    '\n' +
+    'So in general ,this survey synthesizes findings from a range of studies employing neuroimaging techniques, behavioural experiments, and clinical observations to unravel the intricate relationship between social media engagement and dopamine release.\n' +
+    '\n' +
+    'KEYWORDS: Social Media, Addiction ,Dopamine Loop, Neurobiological\n' +  
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'INTRODUCTION\n' +
+    '\n' +
+    'Forms of social relations established in traditional societies are face-to-face relationships, religious rituals, ceremonies, sounds and symbols. Events such as birth, puberty, marriage and death are turning points in individual life as well as they define the socio-economic roles of individuals in society. The 21st century is a century separating itself from previous periods with many features.  \n' +
+    '\n' +
+    'Dopamine levels worsen as social media usage becomes more prevalent and advances throughout the modern world. \n' +
+    '\n' +
+    'The first social network launched in 1997, but the rise of social media began in the early 2000s, resulting in an integral \n' +
+    '\n' +
+    "part of life for billions of individuals. Recent statistics reveal that 58.4% of the world's population uses social media, \n" +
+    '\n' +
+    'meaning 4.62 billion people. Undisputedly, the social media culture is raising Generation Z. In fact, 93% of Generation \n' +
+    '\n' +
+    'Z are social media savvy, and 66% consider it a vital part of their lives. Since social media is in the lives of many \n' +
+    '\n' +
+    "Generation Zoomers' is it safe to conclude that these individuals manifest excessive or sparse dopamine levels? More-\n" +
+    '\n' +
+    'over, the long-term effects that social media and dopamine has on an individual permanently\n' +
+    '\n' +
+    "Dopamine levels worsen as social media usage becomes more prevalent and advances throughout the modern world. The first social network launched in 1997, but the rise of social media began in the early 2000s, resulting in an integral part of life for billions of individuals. Recent statistics reveal that 58.4% of the world's population uses social media, meaning 4.62 billion people. Undisputedly, the social media culture is raising Generation Z. In fact, 93% of Generation Z are social media savvy, and 66% consider it a vital part of their lives. Since social media is in the lives of many Generation Zoomers' is it safe to conclude that these individuals manifest excessive or sparse dopamine levels? More-over, the long-term effects that social media and dopamine has on an individual permanently.\n" +
+    '\n' +
+    'The virtual world is so fast and transient that the real world cannot reach. As a result of this, everything is instant and have to be regenerated (Alanka and Cezik, 2016: 550).Most of the social media channels are nourishing own self and are offering the chance to create fake personalities that people want to be. There is potential to affect human life in a negative way and create addiction with inappropriate use of Internet. This study compares behaviour of individuals with psychological disorders or substance addicted with social media users for a long time \n' +
+    '\n' +
+    "The pervasive influence of dopamine-based social media addiction has become an increasingly prevalent concern in contemporary society. As individuals engage with these platforms, the brain's reward system, driven by the neurotransmitter dopamine, plays a pivotal role in reinforcing compulsive behaviors.\n" +
+    '\n' +
+    'ADDICTION: People with addictions are not in control over things that  are doing,  using,  or  taking. The  addiction thus reaches a point that is harmful to a person physically, emotionally,  and  socially  and  in  turn  affecting  the wellbeing of a person in society. An addiction includes  mobile  addiction  and  social  media addiction is considered as a kind of internal addiction those individuals who spend too much time on social media.\n' +     
+    '\n' +
+    'This Introduction gave the glimpse of  an overview of the research that has been conducted in this area, including information on the most influential authors, journals, countries of publication, and subject areas of study. \n' +
+    '\n' +
+    'LITERATURE REVIEW\n' +
+    '\n' +
+    "Technological advances activate the brain's dopaminergic pathways artificially, including on social me-\n" +
+    '\n' +
+    'dia. Social media can be a digital drug and can become compulsive. The validation of a like, text, DM, \n' +
+    '\n' +
+    'or watching multiple videos in less than a few seconds to minutes causes an induvial sense of pleasure, \n' +
+    '\n' +
+    'impelling the induvial to check social media often, scroll, and be distracted, which can lead to social \n' +
+    '\n' +
+    'media addiction due to the building of dopamine receptors. \n' +        
+    '\n' +
+    'Human development and a variety of biological processes depend heavily on neurotransmitters. Dopamine is a mon-\n' +
+    '\n' +
+    'oamine neurotransmitter playing an essential role in the cardiovascular and central nervous system. The brain produces \n' +
+    '\n' +
+    'dopamine through the substantia nigra, ventral tegmental area, and hypothalamus. Dopamine is a hormone associated \n' +
+    '\n' +
+    "with pleasure and a component of the body's reward system. Nigrostriatal, mesolimbic, mesocortical, and tuberoinfun-\n" +
+    '\n' +
+    "dibular are the major dopaminergic pathways of the brain. The mesolimbic path is responsible for dopamine's best-\n" +
+    '\n' +
+    'known functions, satisfaction and reward\n' +
+    '\n' +
+    'Human development and a variety of biological processes depend heavily on neurotransmitters. Dopamine is a mon-\n' +
+    '\n' +
+    'oamine neurotransmitter playing an essential role in the cardiovascular and central nervous system. The brain produces \n' +
+    '\n' +
+    'dopamine through the substantia nigra, ventral tegmental area, and hypothalamus. Dopamine is a hormone associated \n' +
+    '\n' +
+    "with pleasure and a component of the body's reward system. Nigrostriatal, mesolimbic, mesocortical, and tuberoinfun-\n" +
+    '\n' +
+    "dibular are the major dopaminergic pathways of the brain. The mesolimbic path is responsible for dopamine's best-\n" +
+    '\n' +
+    'known functions, satisfaction and reward\n' +
+    '\n' +
+    "DOPAMINE: Human development and a variety of biological processes depend heavily on neurotransmitters. Dopamine is a monoamine neurotransmitter playing an essential role in the cardiovascular and central nervous system. The brain produces dopamine through the substantia nigra, ventral tegmental area, and hypothalamus. Dopamine is a hormone associated with pleasure and a component of the body's reward system. Nigrostriatal, mesolimbic, neocortical, and tuberoinfundibular are the major dopaminergic pathways of the brain. The mesolimbic path is responsible for dopamine's best-known functions, satisfaction and reward.\n" +
+    '\n' +
+    'Human development and a variety of biological processes depend heavily on neurotransmitters. Dopamine is a mon-\n' +
+    '\n' +
+    'oamine neurotransmitter playing an essential role in the cardiovascular and central nervous system. The brain produces \n' +
+    '\n' +
+    'dopamine through the substantia nigra, ventral tegmental area, and hypothalamus. Dopamine is a hormone associated \n' +
+    '\n' +
+    "with pleasure and a component of the body's reward system. Nigrostriatal, mesolimbi"... 24796 more characters,
+  uploaded_at: '2025-04-24 03:55:07'
+}

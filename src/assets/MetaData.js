@@ -1,8 +1,4 @@
-import React from 'react';
-import { useEffect,useState } from 'react';
-
- const SearchEngine = () => {
-   const MetaData = [
+export const MetaData = [
   {
     id: "6613e272-f639-4619-a2e5-d7c6421baeab",
     file_name: "Yash-Resume(py).pdf",
@@ -20,7 +16,7 @@ import { useEffect,useState } from 'react';
     file_url:
       "https://mogmbfavudzuhryoxrhb.supabase.co/storage/v1/object/public/documents/public/Published%20Paper.pdf",
     text_content:
-      "11   XI   November 2023 https://doi.org/10.22214/ijraset.2023.56982\nInternational Journal for Research in Applied Science & Engineering Technology (IJRASET )  ISSN: 2321 -Pune 9653; IC Value: 45.98; SJ Impact Factor: 7.538  Volume 11 Issue XI Nov 2023 -   Available at www.ijraset.com ... [truncated for brevity - full text retained in original]",
+      "11   XI   November 2023 https://doi.org/10.22214/ijraset.2023.56982\nInternational Journal for Research in Applied Science & Engineering Technology (IJRASET ) Pune ISSN: 2321 - 9653; IC Value: 45.98; SJ Impact Factor: 7.538  Volume 11 Issue XI Nov 2023 -   Available at www.ijraset.com ... [truncated for brevity - full text retained in original]",
     uploaded_at: "2025-04-24 03:54:02",
   },
   {
@@ -44,149 +40,3 @@ import { useEffect,useState } from 'react';
     uploaded_at: "2025-04-24 03:50:46",
   },
 ];
-   const [searchInput, setSearchInput] = useState("");
-
-   //initialize the loading state as true.
-   const [loading,setLoading] = useState(true);
-
-   //initialize the error state as null
-   const [error,setError] = useState(null);
-
-
-   const [results, setResults] = useState([]);
-   const [showResults, setShowResults] = useState(false);
-   const [cache, setCache] = useState({}); //state to implement and handle cache to cache api calls
-
-  //  const fetchData = async () => {
-
-  //   //start loading
-  //   setLoading(true);
-  //   setError(null);//Reset error before fetching
-
-  //    //if data is present in cache,setResults to the input
-  //    if (cache[searchInput]) {
-  //      console.log(`CACHE RETURNED ${searchInput}`);
-  //      setResults(cache[searchInput]);
-  //      setLoading(false); // Done loading from cache
-  //      return;
-  //    }
-
-  //    try
-  //    {
-          
-  //       //if data is not present in the cache,then only make an api call
-  //       const timeTakenForEachApiCallInMs = searchInput;
-  //       console.log(`API Call ${timeTakenForEachApiCallInMs}`);
-
-
-  //       const resData = await fetch(
-  //         "https://dummyjson.com/recipes/search?q=" + searchInput
-  //       );
-
-  //       if(!resData.ok){
-  //         throw new Error(`HTTP error! Status:${resData.status}`);
-  //       }
-
-  //       const jsonData = await resData.json();
-  //       setResults(jsonData?.recipes);
-
-  //       //here key is Mango as ex and jsondata is the result that we have got.
-  //       setCache((prev) => ({ ...prev, [searchInput]: jsonData?.recipes }));
-  //     }catch(error){
-  //       console.error(`Error while Fetching Data:`,error);
-  //       setError(error);
-  //     } finally{
-  //       setLoading(false);// end loading no matter we get data or not. 
-  //     }
-  //  }
-  //  //debouncing to reduce api calls.
-  //  useEffect(() => {
-  //    const delayFetchData = setTimeout(fetchData, 350);
-  //    return () => {
-  //      clearTimeout(delayFetchData);
-  //    };
-  //  }, [searchInput]);
-const performSearchOnMetaData = () => {
-  setLoading(true);
-  const query = searchInput.toLowerCase().trim();
-  if(!query){
-    setResults([]);
-    setLoading(false);
-  }
-  
-  const filtered = MetaData.filter((doc) => {
-    const combinedText = `
-      
-      ${doc.file_name?.toLowerCase() || ''}
-      ${doc.title?.toLowerCase() || ''}
-      ${doc.text_content?.toLowerCase() || ''}
-      ${doc.id?.toLowerCase() || ''}
-    `;
-return (
-      combinedText.includes(query) 
-    );
-  });
-setResults(filtered);
-setLoading(false);//Stop Loading
-}
-useEffect(() => {
-  if (searchInput.trim() === "") {
-    setResults([]);
-    setLoading(false);
-  }
-}, [searchInput]);
-
-   return (
-     <>
-       <h1 className="heading">Auto Complete Search Bar</h1>
-       <div className="">
-         <input
-           type="text"
-           className="searchInput"
-           value={searchInput}
-           onChange={(e) => setSearchInput(e.target.value)}
-           onFocus={() => setShowResults(true)}
-           onBlur={() => setShowResults(false)}
-         />
-         <button onClick={performSearchOnMetaData}>Search</button>
-
-         {loading && (
-           <div className="loadingState">
-             <div className="spinner"></div>
-             <p className="loadingText">Loading...</p>
-           </div>
-         )}
-
-         {error && (
-           <p>There was an error in loading the Documents,files content.</p>
-         )}
-       </div>
-
-       {showResults && (
-         <div className="resultsContainer">
-           {!loading && !error && results.length === 0 && (
-             <p>No Records/Documents Found...</p>
-           )}
-           { results &&
-             results.map((document) => (
-               <div
-                 className="result"
-                 key={document.id}
-                 style={{ padding: "10px", borderBottom: "1px solid #ddd" }}
-               >
-                 <h3>{document.title}</h3>
-                 <p>
-                   <strong>File:</strong> {document.file_name}
-                 </p>
-                 <p>
-                   <strong>Snippet:</strong>{" "}
-                   {document.text_content.slice(0, 200)}...
-                 </p>
-               </div>
-             ))}
-         </div>
-       )}
-     </>
-   );
-}
-export default SearchEngine
