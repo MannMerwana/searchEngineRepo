@@ -1,18 +1,12 @@
 import { useState } from 'react'
+import FileUploader from './components/FileUploader'
 import './App.css'
 
 function App() {
  
   return (
     <>
-    <h1>Search Engine</h1>
-      <div className='searchBox-Container'>
-            <input
-            className='searchBox'
-             type="text" 
-            id ='searchBox'
-            placeholder='Enter Text To Search...' />
-        </div>
+      <FileUploader />
     </>
   )
 }
