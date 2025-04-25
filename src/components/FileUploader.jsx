@@ -5,7 +5,7 @@ import axios from "axios";
 const FileUploader = () => {
 
     const [file, setFile] = useState(null) // for input file
-    const [uploading, setuploading] = useState(false) // to keep the note that uploading id on going
+    const [uploading, setuploading] = useState(false) // to keep the note that uploading is on going
     const [uploadedUrl, setUploadedUrl] = useState("")
     const handleUpload = async (e) => {
         e.preventDefault() // to stop automatic refresh

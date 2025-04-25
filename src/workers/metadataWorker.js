@@ -46,16 +46,62 @@ self.onmessage = async function (e) {
             return
         }
 
+        // Map phase
+        const mappedWords = mapTextToWords(textContent)
+
+        //Shuffle and sort
+        const groupedWords = shuffleAndSort(mappedWords)
+
+        //Reduce
+        const wordCounts = reduceWordCounts(groupedWords)
+
+        //Extract top keywords
+        const keywords = extractTopKeywords(wordCounts)
+
         const metadata = {
             id: crypto.randomUUID(),
             file_name: file.name,
             title: file.name.split(".").slice(0, -1).join("."),
             file_url: "",
-            text_content: textContent,
+            word_counts: JSON.stringify(wordCounts),
+            keywords: keywords.join(", "),
             uploaded_at: new Date().toISOString().slice(0, 19).replace('T', ' '),
         }
 
         self.postMessage({ metadata })
     }
     reader.readAsArrayBuffer(file)
+}
+
+// Map funnction: Breaks down text into words and counts occurences
+const mapTextToWords = (text) => {
+    const words = text.toLowerCase().match(/\w+/g)
+    const wordPairs = []
+    words.forEach(word => {
+        wordPairs.push([word, 1])
+    })
+    return wordPairs
+}
+
+// Shuffle and sort function: grouping the words by key
+const shuffleAndSort = (mappedWords) => {
+    const groupedWords = {}
+    mappedWords.forEach(([word, count]) => {
+        if (!groupedWords[word]) {
+            groupedWords[word] = 0
+        }
+        groupedWords[word] += count
+    })
+    return groupedWords
+}
+
+//Reduce function: word counts
+const reduceWordCounts = (groupedWords) => {
+    return groupedWords
+}
+
+//Extract top keywords 
+const extractTopKeywords = (wordCounts, N = 10) => {
+    const sortedWords = Object.entries(wordCounts).sort((a, b) => b[1] - a[1]).slice(0, N)
+    return sortedWords.map(([word, count]) => word)
 }
