@@ -63,7 +63,7 @@ const FileUploader = () => {
                 // sending the metadata to the server
                 try {
                     console.log("Sending metadata to backend...");
-                    const response = await axios.post("http://localhost:5000/save-metadata", metadata)
+                    const response = await axios.post("http://localhost:5000/generate-embedding", metadata)
                     console.log("Metadata saved successfully", response.data);
                 } catch (error) {
                     console.error("Error saving metadata:", error)
