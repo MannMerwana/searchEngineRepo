@@ -33,7 +33,7 @@ const FileUploader = () => {
             setuploading(false)
             return
         } 
-        const publicUrl = supabase.storage.from('documents').getPublicUrl(filePath).data
+        const {publicUrl} = supabase.storage.from('documents').getPublicUrl(filePath).data
         setUploadedUrl(publicUrl)
         alert("File Uploaded Succesfully!")
 
