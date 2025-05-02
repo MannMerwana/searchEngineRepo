@@ -26,7 +26,7 @@ const FileUploader = () => {
         const filePath = `public/${file.name}`
 
         //file upload to cloud storage
-        const {data, error} = await supabase.storage.from('documents').upload(filePath, file)
+        const {error} = await supabase.storage.from('documents').upload(filePath, file)
         if (error) {
             console.log("Upload Error", error);
             alert("Upload failed!")

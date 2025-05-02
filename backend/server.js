@@ -91,7 +91,7 @@ app.post("/search", async (req, res) => {
 
         res.json({
             query,
-            topResults: results.slice(0, 5), // top 5
+            topResults: results.slice(0, 3), // top 3
         })
     } catch (error) {
         console.error("Search Error:", error)
