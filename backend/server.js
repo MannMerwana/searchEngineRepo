@@ -4,6 +4,7 @@ const bodyParser = require("body-parser")
 const { generateEmbedding } = require("./utils/embedder")
 const mongoose = require("mongoose")
 const Document = require("./models/Document")
+const computeCosineSimilarity = require("compute-cosine-similarity")
 
 const app = express()
 const port = 5000;
@@ -54,6 +55,46 @@ app.post("/generate-embedding", async (req, res) => {
         })
     } catch (error) {
         console.error("Error generating embedding:", error);
+        res.status(500).json({ error: "Internal server error" })
+    }
+})
+
+// endpoint for query embedding and search
+app.post("/search", async (req, res) => {
+    try {
+        const { query } = req.body
+
+        if (!query) {
+            return res.status(400).json({ error: "Query is required" })
+        }
+
+        const queryEmbedding = generateEmbedding(query)
+        console.log("Generated Query vector: ", queryEmbedding);
+
+        //All docs from db
+        const documents = await Document.find()
+
+        //cosine similarity for each doc
+        const results = documents.map((document) => {
+            const similarity = computeCosineSimilarity(queryEmbedding, document.embedding)
+
+            const docWithoutEmbedding = { ...document._doc } //metadata from the db
+            delete docWithoutEmbedding.embedding
+
+            return {
+                ...docWithoutEmbedding,
+                similarityScore: similarity
+            }
+        })
+
+        results.sort((a, b) => b.similarityScore - a.similarityScore) // descending order
+
+        res.json({
+            query,
+            topResults: results.slice(0, 5), // top 5
+        })
+    } catch (error) {
+        console.error("Search Error:", error)
         res.status(500).json({ error: "Internal server error" })
     }
 })
