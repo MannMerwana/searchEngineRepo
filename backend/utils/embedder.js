@@ -33,12 +33,14 @@ function generateEmbedding(text) {
     const tokenizer = new natural.WordTokenizer()
     const tokens = tokenizer.tokenize(text.toLowerCase())
     const filteredTokens = stopword.removeStopwords(tokens)
+    console.log("Filtered tokens: ", filteredTokens)
 
     const tfidf = new natural.TfIdf()
-    tfidf.addDocument(filteredTokens.join(" "))
+    tfidf.addDocument(filteredTokens)
 
     const scores = {}
     tfidf.listTerms(0).forEach(({ term, tfidf }) => {
+        console.log(`Term: ${term}, TF-IDF: ${tfidf}`)
         scores[term] = tfidf
     })
 

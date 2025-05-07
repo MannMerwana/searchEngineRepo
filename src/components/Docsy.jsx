@@ -59,7 +59,7 @@ const performSearchOnMetaData = async () => {
              value={searchInput}
              onChange={(e) => setSearchInput(e.target.value)}
              onFocus={() => setShowResults(true)}
-             onBlur={() => setShowResults(false)}
+            //  onBlur={() => setShowResults(false)}
            />
  
            <button onClick={performSearchOnMetaData}>Search</button>
@@ -71,9 +71,7 @@ const performSearchOnMetaData = async () => {
              </div>
            )} */}
  
-           {error && (
-             <p>There was an error in loading the Documents,files content.</p>
-           )}
+           
          </div>
  
          {showResults && (
@@ -82,21 +80,25 @@ const performSearchOnMetaData = async () => {
                <p>No Records/Documents Found...</p>
              )}
              {results &&
-               results.map((document) => (
-                 <div
-                   className="result"
-                   key={document.id}
-                   style={{ padding: "10px", borderBottom: "1px solid #ddd" }}
-                 >
-                   <h3>{document.title}</h3>
-                   <p>
-                     <strong>File:</strong> {document.file_name}
-                   </p>
-                   <p>
-                     <strong>File-URL:</strong> {document.file_url}
-                   </p>
-                 </div>
-               ))}
+  results.map((document) => (
+    <div
+      className="result"
+      key={document.id}
+      style={{ padding: "10px", borderBottom: "1px solid #ddd" }}
+      onClick={() => window.open(document.file_url, "_blank")}
+    >
+      <h3>{document.title}</h3>
+      <p>
+        <strong>File:</strong> {document.file_name}
+      </p>
+      <p>
+        <strong>File-URL:</strong> {document.file_url}
+      </p>
+      <p>
+      <strong>Snippet:</strong> {document.snippet}
+      </p>
+    </div>
+  ))}
            </div>
          )}
        </div>

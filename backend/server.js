@@ -10,20 +10,17 @@ const app = express()
 const port = 5000;
 
 // mongodb connection
-mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-})
+mongoose.connect(process.env.MONGODB_URI)
     .then(() => console.log("Connected to MongoDB"))
     .catch((error) => console.log("MongoDB Connection Error", error))
 
 app.use(cors())
-app.use(bodyParser.json({ limit: '10mb' }))
+app.use(bodyParser.json({ limit: '50mb' }))
 
 // endpoint to handle the metadata embedding
 app.post("/generate-embedding", async (req, res) => {
     try {
-        const { id, textContent, file_name, title, file_url, uploaded_at } = req.body
+        const { id, textContent, file_name, file_url, uploaded_at } = req.body
 
         if (!textContent) {
             return res.status(400).json({ error: "textContent is required" })
@@ -34,16 +31,20 @@ app.post("/generate-embedding", async (req, res) => {
 
         console.log("Generated embedding vector: ", embedding);
 
+        const snippet = textContent.slice(0, 100)
+
         // save to db
         const document = new Document({
             id,
             file_name,
             file_url,
             uploaded_at,
+            snippet,
             embedding,
         })
 
         await document.save()
+        console.log("Metadata saved to DB");
 
         res.json({
             message: "Embedding generated successfully",
@@ -63,6 +64,7 @@ app.post("/generate-embedding", async (req, res) => {
 app.post("/search", async (req, res) => {
     try {
         const { query } = req.body
+        console.log("Query: ", query);
 
         if (!query) {
             return res.status(400).json({ error: "Query is required" })
@@ -75,17 +77,18 @@ app.post("/search", async (req, res) => {
         const documents = await Document.find()
 
         //cosine similarity for each doc
-        const results = documents.map((document) => {
-            const similarity = computeCosineSimilarity(queryEmbedding, document.embedding)
+        const results = documents &&
+            documents.map((document) => {
+                const similarity = computeCosineSimilarity(queryEmbedding, document.embedding)
 
-            const docWithoutEmbedding = { ...document._doc } //metadata from the db
-            delete docWithoutEmbedding.embedding
+                const docWithoutEmbedding = { ...document._doc } //metadata from the db
+                delete docWithoutEmbedding.embedding
 
-            return {
-                ...docWithoutEmbedding,
-                similarityScore: similarity
-            }
-        })
+                return {
+                    ...docWithoutEmbedding,
+                    similarityScore: similarity
+                }
+            })
 
         results.sort((a, b) => b.similarityScore - a.similarityScore) // descending order
 

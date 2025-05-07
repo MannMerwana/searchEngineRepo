@@ -9,6 +9,7 @@ const documentSchema = new mongoose.Schema({
     file_name: String,
     file_url: String,
     uploaded_at: String,
+    snippet: String,
     embedding: [Number],
 })
 
