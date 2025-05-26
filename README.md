@@ -1,4 +1,4 @@
-# SeachEngine Repo By FrontendTeam : Mann,Yash and Jishan
+#Docsy  SeachEngine Repo By FrontendTeam : Mann,Yash and Jishan
 
 This is a SearchEngine similar to google with following features:
 
